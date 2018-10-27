@@ -7,12 +7,14 @@ class A
 public:
     A()
     {
+        //constructor of class A.
         count++;
         id=count;
         cout<<"constructor for id "<<id<<endl;
     }
     ~A()
     {
+        //destructor of class A.
         cout<<"destructor for id "<<id<<endl;
     }
 } ;
