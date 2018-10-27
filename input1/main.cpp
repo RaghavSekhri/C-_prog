@@ -10,6 +10,7 @@ public:
 };
 void input::file()
 {
+    //member function of class input.
     fstream inputfile;
     char str[100];
     int chars;
