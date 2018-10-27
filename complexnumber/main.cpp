@@ -5,13 +5,15 @@ class complex
 {
     int a,b;
 public:
-    complex():a(0),b(0)
+    complex()
     {
-
+        a=0;
+        b=0;
     }
-    complex(int x,int y):a(x),b(y)
+    complex(int x,int y)
     {
-
+        a=x;
+        b=x;
     }
     void put()
     {
@@ -20,7 +22,7 @@ public:
             cout<<a<<"-i"<<-b<<endl;
         }
         else
-        cout<<a<<"+i"<<b<<endl;
+            cout<<a<<"+i"<<b<<endl;
     }
     void operator-()
     {
