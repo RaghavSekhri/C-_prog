@@ -16,6 +16,7 @@ public:
         cout<<a<<"+i"<<b;
     }
     friend void addition(complex &c,integer in);
+    friend void subtraction(complex &c,integer in);
 };
 class integer
 {
@@ -30,11 +31,17 @@ public:
         cout<<n;
     }
     friend void addition(complex &c,integer in);
+    friend void subtraction(complex &c,integer in);
 };
 void addition(complex &c,integer in)
 {
     c.a=c.a+in.n;
     c.b=c.b+in.n;
+}
+void subtraction(complex &c,integer in)
+{
+    c.a=c.a-in.n;
+    c.b=c.b-in.n;
 }
 int main()
 {
