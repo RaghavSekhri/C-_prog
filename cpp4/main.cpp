@@ -12,3 +12,4 @@ int main()
     cout<<"i = "<<i<<" j = "<<j<<endl;
     return 0;
 }
+//code ends here
