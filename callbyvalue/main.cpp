@@ -18,3 +18,4 @@ int main()
     cout<<a<<endl<<b<<endl;
     return 0;
 }
+//code ends

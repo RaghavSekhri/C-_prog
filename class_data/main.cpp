@@ -1,3 +1,4 @@
+//code starts
 #include <iostream>
 #include<stdio.h>
 
