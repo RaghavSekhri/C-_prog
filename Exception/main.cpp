@@ -1,5 +1,3 @@
-
-//code starts
 #include <iostream>
 
 using namespace std;
@@ -52,4 +50,3 @@ int main()
     obj.errorDetection();
     return 0;
 }
-//code ends here
