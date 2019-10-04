@@ -2,7 +2,7 @@
 #include <iostream>
 
 using namespace std;
-
+/* class bank starts here */
 class Bank
 {
   protected:
