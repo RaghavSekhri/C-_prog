@@ -5,6 +5,7 @@ using namespace std;
 
 void volume(int length=3,int breadth=5,int height=7);
 
+/* main starts here */
 int main()
 {
     volume();
