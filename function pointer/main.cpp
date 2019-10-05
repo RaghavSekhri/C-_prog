@@ -9,6 +9,7 @@ int add(int x,int y)
     return x+y;
 }
 };
+/* main starts here */
 int main()
 {
     hello ob;
