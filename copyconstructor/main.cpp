@@ -18,7 +18,8 @@ public:
     }
     void put()
     {
-        cout<<a<<endl<<b<<endl;
+        //better way to print output
+        cout<<"this is the output "<<a<<endl<<b<<endl;
     }
 };
 
