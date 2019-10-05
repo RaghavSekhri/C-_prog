@@ -43,6 +43,7 @@ void subtraction(complex &c,integer in)
     c.a=c.a-in.n;
     c.b=c.b-in.n;
 }
+/* main starts here */
 int main()
 {
     complex ob;
