@@ -1,2 +1,2 @@
-# C-_prog
-C++ programs made during class time
+# C++ programs 
+C++ programs coded during the class time.
