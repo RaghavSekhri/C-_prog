@@ -20,6 +20,19 @@ class A
 int main()
 {
     A obj;
-    obj.sum(/*insert any value here*/7,8);
+    cout<<"How many numbers you want to add (max :4,min :2)?";
+    int x;
+    cin>>x;
+    
+    int array[4];
+    for(int i=0;i<x;i++)
+        cin>>array[i];
+  switch(x)
+  {case 2:sum(array[0],array[1]);break;
+   case 3:sum(array[0],array[1],array[2]);break;
+   case 4:sum(array[0],array[1],array[2],array[3]);break;
+  }
+
+    
     return 0;
 }
