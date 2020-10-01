@@ -2,8 +2,7 @@
 
 using namespace std;
 
-class palindrome
-{
+class palindrome {
     private:
        int a;
 public:
@@ -11,18 +10,15 @@ public:
     void palindromecheck();
 };
 
-void palindrome::getdata()
-{
+void palindrome::getdata() {
     cin>>a;
 }
 
-void palindrome::palindromecheck()
-{
+void palindrome::palindromecheck() {
     int r,rev=0;
     int z;
     z=a;
-    while(a!=0)
-    {
+    while(a!=0) {
     r=a%10;
     rev=rev*10+r;
     a=a/10;
@@ -33,8 +29,7 @@ void palindrome::palindromecheck()
         cout<<"Number is not palindrome";
 }
 
-int main()
-{
+int main() {
     palindrome obj;
     obj.getdata();
     obj.palindromecheck();
